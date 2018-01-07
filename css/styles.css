@@ -1,0 +1,55 @@
+@font-face {
+	/*	"font-family" can be whatever we want (it's what we use to reference in other css classes), but we follow the following convention:
+		<FONT_NAME><FONT_FORMAT>
+		as long as set the src to be the target file*/
+    font-family: ArcadeClassicTTF;				
+    src: url('../fonts/ARCADECLASSIC.TTF');
+}
+
+.main {
+	font-family: ArcadeClassicTTF;
+	font-size:12px;
+}
+
+.main .title {
+	/* this is the name that we defined above under @font-face */
+	font-family: ArcadeClassicTTF;
+	font-size:30px;
+	color: magenta;
+}
+
+.main .pokedex {
+	/* we must define the height and width of the image because otherwise it will repeat forever */
+	background-image: url('../images/pokedex.png');
+	width:800px;
+	height: 600px;
+}
+
+
+.main .pokedex .left-panel {
+	float: left;
+	width:300px;
+	margin-top:160px;
+	margin-left:40px;
+}
+
+
+.main .pokedex .right-panel {
+	float: left;
+	width:290px;
+	margin-top:160px;
+	margin-left:130px;
+}
+
+
+
+
+
+/*
+.main .title {
+	/* This is called specificity. It looks for a class named "title" underneath "main".
+	font-family: ArcadeClassicTTF;
+	font-size:22px;
+	color: blue;
+}
+*/
