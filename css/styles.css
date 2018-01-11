@@ -33,7 +33,7 @@ a {
 
 .main .pokedex .left-panel {
 	float: left;
-	width:300px;
+	width:320px;
 	height:320px;
 	margin-top:160px;
 	margin-left:40px;
@@ -59,14 +59,22 @@ a {
 	display: block;
 }
 
+
 .main .pokedex .right-panel {
-	float: left;
+	float:left;
+}
+.main .pokedex .right-panel .pokemon-name {
 	width:290px;
 	margin-top:160px;
-	margin-left:130px;
+	margin-left:110px;
+	font-size:50px;
 }
 
-
+.main .pokedex .right-panel .pokemon-stats {
+	width:290px;
+	margin-left:110px;
+	font-size:20px;
+}
 
 
 
